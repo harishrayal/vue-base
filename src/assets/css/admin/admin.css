@@ -1,0 +1,51 @@
+body {
+    background-color: #f0f0f0;
+    color: #000;
+  }
+  
+  /* Sidebar background color */
+.ant-layout-sider {
+  background-color: #001529 !important; /* Dark blue for admin */
+}
+
+.ant-menu {
+  background-color: #001529 !important;
+}
+
+/* Menu item hover color */
+.ant-menu-item:hover {
+  background-color: #1890ff !important; /* Blue on hover */
+}
+
+/* Submenu title color */
+.ant-menu-submenu-title {
+  color: #ffffff !important; /* White color for submenu title */
+}
+
+.ant-menu-title-content {
+  color: #ffffff !important; 
+}
+
+.ant-menu-submenu-title:hover {
+  background-color: #1890ff !important; /* Blue on hover for submenu title */
+}
+
+/* Active menu item color */
+.ant-menu-item-selected {
+  background-color: #1890ff !important;
+}
+
+/* Custom logo color for Admin */
+.logo {
+  background-color: #1890ff !important; /* Blue background for logo */
+}
+
+/* Customize the hover effect on the sidebar links */
+.ant-menu-item a:hover {
+  color: #ffffff !important; /* White text on hover */
+}
+
+/* Customize active menu items */
+.ant-menu-item-selected a {
+  color: #ffffff !important; /* White text for active menu */
+}

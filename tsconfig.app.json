@@ -1,0 +1,22 @@
+{
+    "extends": "@vue/tsconfig/tsconfig.web.json",
+    "include": [
+      "env.d.ts",
+      "src/**/*",
+      "src/**/*.vue",
+      "src/**/*.json",
+      "src/**/*.ts",
+      "src/**/*.js",
+      "babel.config.js",
+      "src/shims-css.d.ts"  // Add this line
+    ],
+    "exclude": ["src/**/__tests__/*"],
+    "compilerOptions": {
+      "composite": true,
+      "baseUrl": ".",
+      "paths": {
+        "@/*": ["./src/*"]
+      }
+    }
+  }
+  

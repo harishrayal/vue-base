@@ -1,0 +1,17 @@
+{
+    "extends": "./tsconfig.app.json",
+    "exclude": [],
+    "include": [
+        "env.d.ts",
+        "src/**/*",
+        "src/**/*.vue",
+        "src/**/*.json",
+        "src/**/*.ts",
+        "babel.config.js"
+    ],
+    "compilerOptions": {
+        "composite": true,
+        "lib": [],
+        "types": ["node", "jsdom"]
+    }
+}

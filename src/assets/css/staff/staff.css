@@ -1,0 +1,43 @@
+body {
+    background-color: #fff;
+    color: #333;
+  }
+
+  .test {
+    color: red !important;
+  }
+  
+  /* Sidebar background color */
+.ant-layout-sider {
+  background-color: #f0f2f5 !important; /* Light gray for staff */
+}
+
+/* Menu item hover color */
+.ant-menu-item:hover {
+  background-color: #52c41a !important; /* Green on hover */
+}
+
+/* Submenu title color */
+.ant-menu-submenu-title {
+  color: #000000 !important; /* Black color for submenu title */
+}
+
+/* Active menu item color */
+.ant-menu-item-selected {
+  background-color: #52c41a !important;
+}
+
+/* Custom logo color for Staff */
+.logo {
+  background-color: #52c41a !important; /* Green background for logo */
+}
+
+/* Customize the hover effect on the sidebar links */
+.ant-menu-item a:hover {
+  color: #ffffff !important; /* White text on hover */
+}
+
+/* Customize active menu items */
+.ant-menu-item-selected a {
+  color: #ffffff !important; /* White text for active menu */
+}
